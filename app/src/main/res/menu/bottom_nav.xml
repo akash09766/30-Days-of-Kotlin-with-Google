@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newReleasedFragment"
+        android:icon="@drawable/ic_movie_black"
+        android:title="Now playing" />
+    <item
+        android:id="@+id/upcomingFragment"
+        android:icon="@drawable/ic_local_movies_black"
+        android:title="Upcoming" />
+    <item
+        android:id="@+id/topRatedFragment"
+        android:icon="@drawable/ic_star_black"
+        android:title="Top rated" />
+</menu>

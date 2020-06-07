@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/newReleasedFragment">
+
+    <fragment
+        android:id="@+id/newReleasedFragment"
+        android:name="com.skylightdevelopers.android.moviemaasala.app.fragment.NewReleasedFragment"
+        android:label="new_released_fragment_layout"
+        tools:layout="@layout/new_released_fragment_layout" />
+    <fragment
+        android:id="@+id/upcomingFragment"
+        android:name="com.skylightdevelopers.android.moviemaasala.app.fragment.UpcomingMovieFragment"
+        android:label="upcoming_movie_fragment_layout"
+        tools:layout="@layout/upcoming_movie_fragment_layout" />
+    <fragment
+        android:id="@+id/topRatedFragment"
+        android:name="com.skylightdevelopers.android.moviemaasala.app.fragment.TopRatedMovieFragment"
+        android:label="top_rated_movie_fragment_layout"
+        tools:layout="@layout/top_rated_movie_fragment_layout" />
+</navigation>

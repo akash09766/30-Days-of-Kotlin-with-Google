@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MovieMaasala</string>
+    <string name="imageUrlConcat">https://image.tmdb.org/t/p/w780%1$s</string>
+</resources>
